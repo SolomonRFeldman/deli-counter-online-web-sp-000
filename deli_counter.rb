@@ -14,5 +14,10 @@ def take_a_number(katz_deli, line_joiner)
   puts "Welcome, #{line_joiner}. You are number #{katz_deli.size} in line."
 end
 
+def now_serving(katz_deli)
+  while katz_deli.size != 0
+    
+end
+
 katz_deli = ["paul", "anthony", "ahhh"]
 line(katz_deli)
