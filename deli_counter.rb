@@ -27,3 +27,6 @@ def now_serving(katz_deli)
   end
 end
 
+katz_deli = ["asgsa","gsag","asga"]
+
+now_serving(katz_deli)
