@@ -1,3 +1,3 @@
 def line(katz_deli)
-  katz_deli.each_with_index { |person, index| "The line is currently #{index + 1}. #{person}."}
+  "The line is currently #{katz_deli.each_with_index { |person, index|  #{index + 1}". " #{person}}"
 end
