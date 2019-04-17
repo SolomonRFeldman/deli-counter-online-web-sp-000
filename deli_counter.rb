@@ -15,10 +15,14 @@ def take_a_number(katz_deli, line_joiner)
 end
 
 def now_serving(katz_deli)
-  while katz_deli.size != 0
+  if katz_deli.size != 0
     puts "Currently serving #{katz_deli[0]}."
     katz_deli.shift
-  end
+  else
+  # while katz_deli.size != 0
+  #   puts "Currently serving #{katz_deli[0]}."
+  #   katz_deli.shift
+  # end
   puts "There is nobody waiting to be served!"
 end
 
