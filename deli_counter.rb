@@ -16,6 +16,7 @@ end
 
 def now_serving(katz_deli)
   while katz_deli.size != 0
+    puts "Currently serving #{katz_deli[0]}."
     
 end
 
