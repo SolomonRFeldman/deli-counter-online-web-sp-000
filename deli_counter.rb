@@ -23,4 +23,4 @@ def now_serving(katz_deli)
 end
 
 katz_deli = ["paul", "anthony", "ahhh"]
-line(katz_deli)
+now_serving(katz_deli)
