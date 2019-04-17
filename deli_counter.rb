@@ -26,12 +26,3 @@ def now_serving(katz_deli)
     puts "There is nobody waiting to be served!"
   end
 end
-
-katz_deli = ["asgsa","gsag","asga"]
-
-now_serving(katz_deli)
-now_serving(katz_deli)
-now_serving(katz_deli)
-now_serving(katz_deli)
-now_serving(katz_deli)
-now_serving(katz_deli)
